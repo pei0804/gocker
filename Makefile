@@ -29,7 +29,7 @@ docker_rm:
 	docker-compose rm
 
 docker_ssh:
-	docker exec -it goa-stater /bin/bash
+	docker exec -it golang-app /bin/bash
 
 direnv:
 	direnv allow

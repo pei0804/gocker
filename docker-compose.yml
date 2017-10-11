@@ -12,3 +12,4 @@ services:
     command: sh ./start.sh
     env_file:
       - .env
+    container_name: golang-app
